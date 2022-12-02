@@ -42,23 +42,61 @@
   top: 10%;
   left: 10%;
 }
-.card-back-main-img{
+.card-back-main-img {
   position: relative;
 }
-.card-back-cardnumber{
+.card-back-cardnumber {
   position: absolute;
-  top:45.5%;
+  top: 45.5%;
   right: 13%;
   color: white;
   font-weight: 600;
   letter-spacing: 2px;
 }
-.sub-box{
-  margin-right: 450px;
+.sub-box {
+  position: absolute;
+  right: 15%;
 }
-.sub-box :first-child input{
-  margin-bottom: 50px;
+.sub-box-cardname-input {
+  margin-bottom: 35px;
+  height: 30px;
+  margin-top: 10px;
+  width: 20vw;
+  border-radius: 5px;
 }
-.sub-box :nth-child(2) input{
-  margin-bottom: 60px;
+.sub-box-cardname-input2 {
+  margin-bottom: 45px;
+  height: 30px;
+  margin-top: 10px;
+  width: 20vw;
+  border-radius: 5px;
+}
+.sub-box-exp-text {
+  width: 71px;
+  height: 35px;
+  border-radius: 5px;
+}
+.sub-box-exp-text2 {
+  height: 35px;
+  border-radius: 5px;
+}
+.sub-box-expdate-cvc {
+  display: flex;
+  margin-bottom: 10px;
+}
+.submit {
+  margin-top: 35px;
+  width: 21vw;
+  height: 5vh;
+  color: white;
+  background-color: purple;
+  border-radius: 5px;
+}
+.sub-box-expdate-cvc:first-child p {
+  margin-right: 35px;
+}
+input::placeholder {
+  font-weight: 600;
+  opacity: 0.4;
+  padding-left: 10px;
 }

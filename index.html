@@ -48,31 +48,57 @@
         </div>
       </div>
       <div class="card-back">
-        <img class="card-back-main-img" src="images/bg-card-back.png" /> 
+        <img class="card-back-main-img" src="images/bg-card-back.png" />
         <div class="card-back-cardnumber"><p>000</p></div>
       </div>
       <div class="left-box"><img src="images/bg-main-desktop.png" /></div>
-        <form class="sub-box">
-          <div class="sub-box-cardname">
+      <form class="sub-box">
+        <div class="sub-box-cardname">
           <p>CARDHOLDER NAME</p>
-          <input type="text" required>
+          <input
+            class="sub-box-cardname-input"
+            type="text"
+            required
+            placeholder="Type your cardholder name"
+          />
         </div>
         <div class="sub-box-cardname">
           <p>CARD NUMBER</p>
-          <input type="text" required>
+          <input
+            class="sub-box-cardname-input2"
+            type="text"
+            required
+            placeholder="Type your card number"
+          />
         </div>
         <div class="sub-box-date">
-          <div>
-          <p>EXP.DATE (MM/YY)</p>
-          <p>CVC</p>
+          <div class="sub-box-expdate-cvc">
+            <p>EXP.DATE (MM/YY)</p>
+            <p>CVC</p>
+          </div>
+          <div class="sub-box-exp">
+            <input
+              class="sub-box-exp-text"
+              type="text"
+              required
+              placeholder="MM"
+            />
+            <input
+              class="sub-box-exp-text"
+              type="text"
+              required
+              placeholder="YY"
+            />
+            <input
+              class="sub-box-exp-text2"
+              type="text"
+              required
+              placeholder="e.g. 123"
+            />
+          </div>
+          <input class="submit" type="submit" value="Confirm" />
         </div>
-        <div class="sub-box-exp">
-          <input class="sub-box-exp-text" type="text" required/>
-          <input class="sub-box-exp-text" type="text" required/>
-          <input class="sub-box-exp-text" type="text" required/>
-        </div>
-        </div>
-        </form>
+      </form>
     </div>
     <script src="script.js"></script>
   </body>
