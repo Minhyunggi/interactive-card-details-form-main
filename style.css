@@ -1,6 +1,9 @@
 @import "reset.css";
 .main-box {
   position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .card-front {
   position: absolute;
@@ -38,4 +41,24 @@
   position: absolute;
   top: 10%;
   left: 10%;
+}
+.card-back-main-img{
+  position: relative;
+}
+.card-back-cardnumber{
+  position: absolute;
+  top:45.5%;
+  right: 13%;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.sub-box{
+  margin-right: 450px;
+}
+.sub-box :first-child input{
+  margin-bottom: 50px;
+}
+.sub-box :nth-child(2) input{
+  margin-bottom: 60px;
 }
