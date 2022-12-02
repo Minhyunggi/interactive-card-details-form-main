@@ -1,1 +1,15 @@
+
 @import "reset.css";
+.main-box{
+    position: relative;
+}
+.card-front{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+.card-back{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
