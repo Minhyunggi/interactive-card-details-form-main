@@ -1,15 +1,41 @@
-
 @import "reset.css";
-.main-box{
-    position: relative;
+.main-box {
+  position: relative;
 }
-.card-front{
-    position: absolute;
-    top: 20%;
-    left: 15%;
+.card-front {
+  position: absolute;
+  top: 20%;
+  left: 15%;
 }
-.card-back{
-    position: absolute;
-    top: 50%;
-    left: 20%;
+.card-back {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+.card-front-main-img {
+  position: relative;
+}
+.card-front-cardnumber {
+  position: absolute;
+  top: 52%;
+  color: white;
+  left: 10%;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+.card-front-subbox {
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+  display: flex;
+  color: white;
+}
+.card-front-date {
+  margin-left: 220px;
+}
+.card-front-mark {
+  position: absolute;
+  top: 10%;
+  left: 10%;
 }
