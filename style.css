@@ -28,9 +28,6 @@
   letter-spacing: 5px;
   display: flex;
 }
-.card-front-cardnumber p {
-  padding-left: 10px;
-}
 .card-front-subbox {
   position: absolute;
   bottom: 20%;
@@ -39,7 +36,8 @@
   color: white;
 }
 .card-front-date {
-  margin-left: 220px;
+  margin-left: 190px;
+  display: flex;
 }
 .card-front-mark {
   position: absolute;
@@ -82,7 +80,7 @@
   display: flex;
   margin-bottom: 10px;
 }
-.sub-box-exp{
+.sub-box-exp {
   display: flex;
   justify-content: space-between;
 }
@@ -110,18 +108,18 @@ input:focus {
   border: 5px solid purple;
   transition: all 0.5s;
 }
-.hidden{
+.hidden {
   display: none;
 }
-.blank{
+.blank {
   color: red;
 }
-.sub-box-cardname{
+.sub-box-cardname {
   position: relative;
 }
-.numbers{
+.numbers {
   color: red;
 }
-p{
+p {
   font-weight: 600;
 }
