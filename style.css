@@ -61,15 +61,9 @@
   position: absolute;
   right: 17%;
 }
-.sub-box-cardname-input {
-  margin-bottom: 35px;
-  height: 30px;
-  margin-top: 10px;
-  width: 22.5vw;
-  border-radius: 5px;
-}
-.sub-box-cardname-input2 {
-  margin-bottom: 45px;
+
+.card-input {
+  margin-bottom: 15px;
   height: 30px;
   margin-top: 10px;
   width: 22.5vw;
@@ -87,6 +81,10 @@
 .sub-box-expdate-cvc {
   display: flex;
   margin-bottom: 10px;
+}
+.sub-box-exp{
+  display: flex;
+  justify-content: space-between;
 }
 .submit {
   margin-top: 35px;
@@ -111,4 +109,19 @@ input {
 input:focus {
   border: 5px solid purple;
   transition: all 0.5s;
+}
+.hidden{
+  display: none;
+}
+.blank{
+  color: red;
+}
+.sub-box-cardname{
+  position: relative;
+}
+.numbers{
+  color: red;
+}
+p{
+  font-weight: 600;
 }
