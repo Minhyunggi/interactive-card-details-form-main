@@ -56,74 +56,84 @@
         <div class="card-back-cardnumber"><p></p></div>
       </div>
       <div class="left-box"><img src="images/bg-main-desktop.png" /></div>
-      <form class="sub-box">
-        <div class="sub-box-cardname">
-          <p>CARDHOLDER NAME</p>
-          <input
-            id="card-input"
-            class="card-input"
-            type="text"
-            required
-            placeholder="Type your cardholder name"
-          />
-          <p class="hidden blank">Can't be blank</p>
-        </div>
-        <div class="sub-box-cardname">
-          <p>CARD NUMBER</p>
-          <input
-            id="card-input"
-            class="card-input"
-            type="text"
-            required
-            placeholder="Type your card number"
-            maxlength="19"
-          />
-          <p class="hidden blank">Can't be blank</p>
-          <p class="hidden numbers">Wrong format, numbers only</p>
-        </div>
-        <div>
-          <div class="sub-box-expdate-cvc">
-            <p>EXP.DATE (MM/YY)</p>
-            <p>CVC</p>
+      <div class="sub-and-complete-box">
+        <form class="sub-box">
+          <div class="sub-box-cardname">
+            <p>CARDHOLDER NAME</p>
+            <input
+              id="card-input"
+              class="card-input"
+              type="text"
+              required
+              placeholder="e.g. Jane Appleseed"
+            />
+            <p class="hidden blank">Can't be blank</p>
           </div>
-          <div class="sub-box-exp">
-            <div class="blank-box">
-              <input
-                id="card-input"
-                class="sub-box-exp-text"
-                type="text"
-                required
-                placeholder="MM"
-                maxlength="2"
-              />
-              <p class="hidden blank">Can't be blank</p>
-            </div>
-            <div class="blank-box">
-              <input
-                id="card-input"
-                class="sub-box-exp-text"
-                type="text"
-                required
-                placeholder="YY"
-                maxlength="2"
-              />
-              <p class="hidden blank">Can't be blank</p>
-            </div>
-            <div class="blank-box">
-              <input
-                id="card-input"
-                class="sub-box-exp-text2"
-                type="text"
-                required
-                placeholder="e.g. 123"
-                maxlength="3"
-              />
-              <p class="hidden blank">Can't be blank</p>
-            </div>
+          <div class="sub-box-cardname">
+            <p>CARD NUMBER</p>
+            <input
+              id="card-input"
+              class="card-input"
+              type="text"
+              required
+              placeholder="e.g. 1234 5678 9123 0000"
+              maxlength="19"
+            />
+            <p class="hidden blank">Can't be blank</p>
+            <p class="hidden numbers">Wrong format, numbers only</p>
           </div>
-          <input class="submit" type="submit" value="Confirm" />
+          <div>
+            <div class="sub-box-expdate-cvc">
+              <p>EXP.DATE (MM/YY)</p>
+              <p>CVC</p>
+            </div>
+            <div class="sub-box-exp">
+              <div class="blank-box">
+                <input
+                  id="card-input"
+                  class="sub-box-exp-text"
+                  type="text"
+                  required
+                  placeholder="MM"
+                  maxlength="2"
+                />
+                <p class="hidden blank">Can't be blank</p>
+              </div>
+              <div class="blank-box">
+                <input
+                  id="card-input"
+                  class="sub-box-exp-text"
+                  type="text"
+                  required
+                  placeholder="YY"
+                  maxlength="2"
+                />
+                <p class="hidden blank">Can't be blank</p>
+              </div>
+              <div class="blank-box">
+                <input
+                  id="card-input"
+                  class="sub-box-exp-text2"
+                  type="text"
+                  required
+                  placeholder="e.g. 123"
+                  maxlength="3"
+                />
+                <p class="hidden blank">Can't be blank</p>
+              </div>
+            </div>
+            <input class="submit" type="submit" value="Confirm" />
+          </div>
+        </form>
+        <div class="complete-box hidden">
+          <div class="complete-flexbox">
+            <img src="images/icon-complete.svg" />
+            <h1>THANK YOU!</h1>
+            <p>We've added your card deatils</p>
+            <button>Continue</button>
+          </div>
         </div>
-      </form>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>

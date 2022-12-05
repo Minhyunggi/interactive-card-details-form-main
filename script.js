@@ -10,8 +10,15 @@ for (let i = 0; i < inputText.length; i++) {
   });
   document.querySelector(".submit").addEventListener("click", function (e) {
     e.preventDefault();
-    if (inputText[i].value !== "") {
+    if (
+      inputText[0].value !== "" &&
+      inputText[1].value !== "" &&
+      inputText[2].value !== "" &&
+      inputText[3].value !== "" &&
+      inputText[4].value !== ""
+    ) {
       document.querySelector(".sub-box").classList.add("hidden");
+      document.querySelector(".complete-box").classList.remove("hidden");
     }
   });
 }
