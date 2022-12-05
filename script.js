@@ -8,6 +8,12 @@ for (let i = 0; i < inputText.length; i++) {
       blank[i].classList.add("hidden");
     }
   });
+  document.querySelector(".submit").addEventListener("click", function (e) {
+    e.preventDefault();
+    if (inputText[i].value !== "") {
+      document.querySelector(".sub-box").classList.add("hidden");
+    }
+  });
 }
 
 inputText[0].addEventListener("change", function () {
